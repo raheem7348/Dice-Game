@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Button } from '../Styled/Button'
 
 
 const Container = styled.div`
@@ -16,20 +17,7 @@ const Container = styled.div`
     }
  }
 `
-const Button = styled.button`
- padding: 10px 18px;
- background: #000000;
- color: white;
- border-radius: 5px;
- font-size: 16px;
- cursor: pointer;
-transition: 0.3s background ease-in;
 
- &:hover{
-    background-color: #383838;
-    transition: 0.3s background ease-in;
- }
-`
 
 const StartPage = ({toggle}) => {
   return (  

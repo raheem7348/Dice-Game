@@ -2,18 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import {useState} from "react"
 
-const RollDice = ({currentDice,setCurrentDice}) => {
+const RollDice = ({currentDice,rollDice}) => {
 
 
 
-     const RandomGenerator = (min, max)=>{
-        return (Math.floor(Math.random() * (max-min) + min)); 
-     }
+    //  const RandomGenerator = (min, max)=>{
+    //     return (Math.floor(Math.random() * (max-min) + min)); 
+    //  }
 
-     const rollDice= ()=>{
-        const random = RandomGenerator(1, 7);
-        setCurrentDice((prev)=>random);
-     }
+    //  const rollDice= ()=>{
+    //     const random = RandomGenerator(1, 7);
+    //     setCurrentDice((prev)=>random);
+    //  }
 
   return (
     <DiceContainer>
